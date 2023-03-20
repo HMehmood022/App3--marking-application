@@ -6,7 +6,7 @@ namespace StudentMarks //namespace used to organise our code elements.
     {
         public const int Maxstudents = 10;// this is the max amount of students in our student array.
         public static int[] Marks { get; set; } = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };//this is the Marks array
-        public static string[] Students { get; set; } = { " James ", " Harry ", " Dean ", "Steve ", " Carl ", " Bob ", " Jack ", " Joe ", " Adam ", " George " };// these are the names of the students in our student array
+        public static string[] Students { get; set; } = {" Student01 ", " Student02 ", " Student03 ", " Student04 ", " Student05 ", " Student06 ", " Student07 ", " Student08 ", " Student09 ", " Student10 "};// these are the names of the students in our student array
 
         public static void Main()
         {
@@ -21,6 +21,7 @@ namespace StudentMarks //namespace used to organise our code elements.
             int choice = 0;
 
             Console.ForegroundColor = ConsoleColor.Green;// this property is used change our console colours. Our console text colour will be green.
+            Console.WriteLine(" ------------------------------------------------- ");
             Console.WriteLine(" Welcome to Hishaam's student marking application! "); //our opening message.
             Console.WriteLine(" ------------------------------------------------- ");
             Console.WriteLine(" Please select an option from below: "); // the usaer is presented with 4 options.
@@ -79,7 +80,7 @@ namespace StudentMarks //namespace used to organise our code elements.
 
             for (int index = 0; index < Maxstudents; index++)
             {
-                Console.Write("Please enter a mark for " + Students[index] + " no:  " + index + " : ");
+                Console.Write(" Please enter a mark for " + Students[index] + " no: " + index + " : ");
 
                 markInput = Convert.ToInt32((Console.ReadLine()));
 
