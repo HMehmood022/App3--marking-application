@@ -75,12 +75,12 @@ namespace StudentMarks //namespace used to organise our code elements.
         {
             int markInput;
 
-            Console.WriteLine(" Please enter the student's marks ");
+            Console.WriteLine(" Please enter the students' marks ");
             Console.WriteLine(" ------------------------------------------------- ");
 
             for (int index = 0; index < Maxstudents; index++)
             {
-                Console.Write(" Please enter a mark for " + Students[index] + " no: " + index + " : ");
+                Console.Write(" Please enter a mark for" + Students[index] + "no: " + index + " : ");
 
                 markInput = Convert.ToInt32((Console.ReadLine()));
 
