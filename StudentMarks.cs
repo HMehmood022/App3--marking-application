@@ -115,27 +115,27 @@ namespace StudentMarks //namespace used to organise our code elements.
 
                 if (Marks[index] >= 70) //if the student has recieved a mark  more than or equal to 70, they will recieve an A.
                 {
-                    Console.WriteLine(Students[index] + " has recieved the grade of " + Marks[index] + " A ");// displays the students name along with their marks and grade.
+                    Console.WriteLine(Students[index] + " has recieved the grade of " + Marks[index] + " = " + " A ");// displays the students name along with their marks and grade.
                 }
 
                 else if (Marks[index] >= 60)//if the student has recieved a mark  more than or equal to 60, they will recieve an B
                 {
-                    Console.WriteLine(Students[index] + " has recieved the grade of " + Marks[index] + " B ");
+                    Console.WriteLine(Students[index] + " has recieved the grade of " + Marks[index] + " = " + " B ");
                 }
 
                 else if (Marks[index] >= 50)//if the student has recieved a mark more than or equal to 50, they will recieve an C
                 {
-                    Console.WriteLine(Students[index] + " has recieved the grade of " + Marks[index] + " C ");
+                    Console.WriteLine(Students[index] + " has recieved the grade of " + Marks[index] + " = " + " C ");
                 }
 
                 else if (Marks[index] >= 40)//if the student has recieved a mark more than or equal to 40, they will recieve an D
                 {
-                    Console.WriteLine(Students[index] + " has recieved the grade of " + Marks[index] + " D ");
+                    Console.WriteLine(Students[index] + " has recieved the grade of " + Marks[index] + " = " + " D ");
                 }
 
                 else if (Marks[index] < 40)//if the student has recieved a mark less than 40, they will recieve an F
                 {
-                    Console.WriteLine(Students[index] + " has recieved the grade of " + Marks[index] + " F ");
+                    Console.WriteLine(Students[index] + " has recieved the grade of " + Marks[index] + " = " + " F ");
                 }
 
             SelectChoice();
